@@ -1,0 +1,48 @@
+
+body{
+  background-color: #000000; /* serious background color for the body */
+width: 60%;
+margin: auto;
+padding: 60px 0;
+}
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+  margin: 50;
+  color: blueviolet;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  text-align: center
+}
+section{
+    text-align: left;
+    padding: 15%;
+    background-color: rgb(254, 254, 254);
+    max-height: 35vh;
+    overflow: auto;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    display:flex;
+    flex-direction:column;
+}
+
+.account,
+.transaction {
+    padding: 5px;
+    border: 1px solid blueviolet;
+    margin: 5px 0;
+}
+
+.account:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.account:active{
+    background: #efbaed;
+}
+
